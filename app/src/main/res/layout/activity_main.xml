@@ -298,14 +298,16 @@
             android:layout_marginBottom="25dp"
             android:text="Olvidé mi clave"
             android:textAlignment="center"
-            android:textColor="@android:color/holo_orange_light"
+            android:textColor="#F68A38"
             android:textSize="16sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#FF9800"
+            android:layout_height="38dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/inputdesing"
+            android:backgroundTint="#F68A38"
             android:ellipsize="none"
             android:text="Siguiente"
             android:textColor="#FFFFFF" />
@@ -313,8 +315,8 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:layout_height="38dp"
+            android:background="@drawable/inputdesing"
             android:outlineProvider="none"
             android:text="No tengo clave de internet"
             android:textColor="@android:color/tab_indicator_text"
